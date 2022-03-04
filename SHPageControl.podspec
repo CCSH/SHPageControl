@@ -10,9 +10,4 @@ Pod::Spec.new do | s |
     s.source_files = "#{s.name}/*.{h,m}"
     s.dependency "SHExtension/UIView"
 
-    #部分功能
-    s.subspec 'NSString' do |ss|
-        ss.source_files = "#{s.name}/NSString+SHExtension.{h,m}"
-    end
-
 end
